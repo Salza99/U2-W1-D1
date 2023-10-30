@@ -242,15 +242,24 @@ footer a {
   }
   section,
   iframe {
-    width: 49%;
+    width: 50%;
     display: inline-block;
     margin: 0;
     vertical-align: middle;
     margin-bottom: 3vh;
   }
+  section {
+    margin-left: -2px;
+  }
+  iframe {
+    margin-right: -2px;
+    height: 24vh;
+  }
   aside div {
     display: inline-block;
-    width: 33%;
+    width: 33.33%;
+    margin-left: -2px;
+    margin-right: -2px;
   }
 
   section h2 {
@@ -262,5 +271,11 @@ footer a {
   }
   article ol li {
     font-size: 2.3vh;
+  }
+  footer address {
+    font-size: 1.3rem;
+  }
+  footer {
+    padding: 1rem 41.5rem;
   }
 }
